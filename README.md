@@ -40,3 +40,29 @@ python stock_tool.py technical AAPL --indicators rsi,macd,sma
 ```bash
 python -m pytest test_stock_tool.py -v
 ```
+
+## 部署为 AI Agent Skill
+
+### Claude Code
+
+将本仓库克隆到 Claude Code 的 skills 目录：
+
+```bash
+# 全局安装（所有项目可用）
+git clone https://github.com/your-username/stock_skill.git ~/.claude/skills/stock_skill
+
+# 或项目级安装（仅当前项目可用）
+git clone https://github.com/your-username/stock_skill.git .claude/skills/stock_skill
+```
+
+重启 Claude Code 后，使用 `/stock_skill` 调用。
+
+### Codex
+
+将本仓库克隆到项目目录：
+
+```bash
+git clone https://github.com/your-username/stock_skill.git
+```
+
+Codex 会自动读取仓库中的 `AGENTS.md` 或 `SKILL.md` 作为上下文。
