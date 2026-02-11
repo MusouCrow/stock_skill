@@ -1,6 +1,6 @@
 # Stock Analysis Skill
 
-基于 OpenBB 的股票分析工具，供 Claude Code/Codex 使用，提供股票交易数据获取、新闻数据获取和技术分析能力。
+基于 [OpenBB](https://github.com/OpenBB-finance) 的股票分析工具，供 Claude Code/Codex 使用，提供股票交易数据获取、新闻数据获取和技术分析能力。
 
 ## 功能
 
