@@ -1,0 +1,4 @@
+*SPEC.md
+__pycache__
+.pytest_cache
+openbb-docs
