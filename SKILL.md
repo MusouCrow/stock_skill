@@ -81,4 +81,4 @@ python stock_tool.py technical <股票代码> \
 
 ## 输出格式
 
-默认 JSON 格式，可用 `--format table` 切换表格输出。
+默认 JSON 格式输出。
